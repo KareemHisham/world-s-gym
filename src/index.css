@@ -1,0 +1,11 @@
+body {
+  background-color: #fffafb !important;
+}
+:root {
+  --mainColor: #f73d93;
+  --lightPink: #ff262533;
+  --dark: #2C3639;
+}
+img {
+  max-width: 100%;
+}

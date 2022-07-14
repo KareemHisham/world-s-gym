@@ -1,0 +1,35 @@
+section.home .hero-banner {
+  height: 100vh;
+  position: relative;
+}
+section.home .hero-banner .hero-content .head {
+  color: var(--mainColor);
+  font-size: 30px;
+}
+section.home .hero-banner .hero-content p {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+section.home .hero-banner .hero-content span {
+  color: var(--dark);
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 10px;
+  display: block;
+}
+section.home .hero-banner img {
+  max-width: 100%;
+  position: absolute;
+  top: -92px;
+  right: 0;
+  height: 700px;
+}
+section.home .hero-banner h1 {
+  color: var(--lightPink);
+  font-size: 200px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}

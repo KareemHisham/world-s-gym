@@ -1,0 +1,40 @@
+section.home .search-form .heading {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--dark);
+}
+section.home .search-form form {
+  margin-bottom: 40px;
+}
+section.home .search-form form .input-group {
+  justify-content: center;
+}
+section.home .search-form form .input-group > div {
+  flex-basis: 50%;
+}
+section.home .search-form .parts-wrapper {
+  width: 250px;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s linear;
+  box-shadow: none;
+}
+section.home .search-form .parts-wrapper:hover {
+  transform: scale(1.1);
+}
+section.home .search-form .parts-wrapper img {
+  max-width: 60px;
+}
+section.home .search-form .parts-wrapper .title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: var(--dark);
+}

@@ -1,0 +1,8 @@
+section.home {
+  padding: 30px 0;
+}
+section.home .hero-banner,
+section.home .search-form,
+section.home .exercises {
+  padding: 20px 0;
+}

@@ -1,0 +1,23 @@
+section.home .exercises .heading {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--dark);
+}
+section.home .exercises .MuiPagination-root {
+    margin: auto;
+}
+section.home .exercises .card-wrapper {
+    border-top: 3px solid var(--mainColor);
+}
+section.home .exercises .card-wrapper a {
+    display: block;
+    background-color: #fff;
+}
+section.home .exercises .card-wrapper .exercise-title {
+    display: flex;
+    align-items: center;
+}
+section.home .exercises .card-wrapper .exercise-name {
+    font-weight: 700;
+    color: var(--dark);
+}

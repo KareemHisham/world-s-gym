@@ -1,0 +1,67 @@
+/* Details Section */
+section.exercise-details .exercise-wrapper .exercise-photo img {
+  max-width: 100%;
+}
+section.exercise-details .exercise-wrapper .exercise-content .name {
+  font-weight: 700;
+  font-size: 25px;
+}
+section.exercise-details .exercise-wrapper .exercise-content p span {
+  font-weight: 600;
+}
+section.exercise-details .exercise-wrapper .exercise-content ul li {
+  font-size: 20px;
+  font-weight: 600;
+}
+/* Videos Section */
+section.exercise-details .videos-section {
+  padding: 20px 0;
+}
+section.exercise-details .videos-section .head {
+  padding: 10px 0;
+}
+section.exercise-details .videos-section .head h4 span {
+  color: var(--mainColor);
+}
+section.exercise-details .videos-section .video-link {
+  display: block;
+  padding: 7px;
+}
+section.exercise-details .videos-section .video-link img {
+  width: 100%;
+  height: 200px;
+  border-radius: 6px;
+}
+section.exercise-details .videos-section .video-link p,
+section.exercise-details .videos-section .video-link h6 {
+  color: var(--dark);
+}
+/* Similar Exercises Section */
+section.exercise-details .similar-exercise .similar-target .head span,
+section.exercise-details .similar-exercise .similar-muscles .head span {
+  color: var(--mainColor);
+  font-weight: 600;
+}
+section.exercise-details
+  .similar-exercise
+  .react-horizontal-scrolling-menu--item {
+  margin-right: 20px;
+}
+section.exercise-details
+  .similar-exercise
+  .react-horizontal-scrolling-menu--item
+  .card-wrapper {
+  width: 250px;
+}
+section.exercise-details
+  .similar-exercise
+  .react-horizontal-scrolling-menu--item
+  .card-wrapper
+  a {
+  display: block;
+  width: 100%;
+  color: var(--dark);
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: capitalize;
+}

@@ -1,0 +1,23 @@
+/* chrome and chromium based */
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.react-horizontal-scrolling-menu--wrapper
+  .react-horizontal-scrolling-menu--arrow-right,
+.react-horizontal-scrolling-menu--wrapper
+  .react-horizontal-scrolling-menu--arrow-left {
+  cursor: pointer;
+  transition: color 0.3s linear;
+  align-items: center;
+}
+.react-horizontal-scrolling-menu--wrapper
+  .react-horizontal-scrolling-menu--arrow-right:hover,
+.react-horizontal-scrolling-menu--wrapper
+  .react-horizontal-scrolling-menu--arrow-left:hover {
+  color: var(--mainColor);
+}
